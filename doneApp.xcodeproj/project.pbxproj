@@ -27,6 +27,9 @@
 		475E3F471B10D781004A3A71 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E3F461B10D781004A3A71 /* libsqlite3.dylib */; };
 		475E3F491B10D7D8004A3A71 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E3F481B10D7D8004A3A71 /* Parse.framework */; };
 		475E3F4C1B10DB19004A3A71 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E3F4B1B10DB19004A3A71 /* Bolts.framework */; };
+		4797F8451B1358E700D952D6 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797F8441B1358E700D952D6 /* TimelineTableViewController.swift */; };
+		4797F8471B13595700D952D6 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797F8461B13595700D952D6 /* ComposeViewController.swift */; };
+		4797F8491B1367A900D952D6 /* doneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797F8481B1367A900D952D6 /* doneTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		475E3F461B10D781004A3A71 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		475E3F481B10D7D8004A3A71 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		475E3F4B1B10DB19004A3A71 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4797F8441B1358E700D952D6 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		4797F8461B13595700D952D6 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		4797F8481B1367A900D952D6 /* doneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doneTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				475E3F0F1B10D6C1004A3A71 /* AppDelegate.swift */,
+				4797F8461B13595700D952D6 /* ComposeViewController.swift */,
+				4797F8481B1367A900D952D6 /* doneTableViewCell.swift */,
+				4797F8441B1358E700D952D6 /* TimelineTableViewController.swift */,
 				475E3F141B10D6C1004A3A71 /* ViewController.swift */,
 				475E3F161B10D6C1004A3A71 /* Main.storyboard */,
 				475E3F191B10D6C1004A3A71 /* Images.xcassets */,
@@ -275,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4797F8471B13595700D952D6 /* ComposeViewController.swift in Sources */,
 				475E3F151B10D6C1004A3A71 /* ViewController.swift in Sources */,
 				475E3F101B10D6C1004A3A71 /* AppDelegate.swift in Sources */,
+				4797F8451B1358E700D952D6 /* TimelineTableViewController.swift in Sources */,
 				475E3F131B10D6C1004A3A71 /* doneApp.xcdatamodeld in Sources */,
+				4797F8491B1367A900D952D6 /* doneTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +493,7 @@
 				475E3F2E1B10D6C1004A3A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		475E3F2F1B10D6C1004A3A71 /* Build configuration list for PBXNativeTarget "doneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +502,7 @@
 				475E3F311B10D6C1004A3A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
